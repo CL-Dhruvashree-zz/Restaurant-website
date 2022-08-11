@@ -1,0 +1,287 @@
+
+<!-- <html>
+   <head>
+      <script>
+         function dhruvavalidation() {
+            var name =
+               document.forms.RegForm.Name.value;
+            var email =
+               document.forms.RegForm.EMail.value;
+            var phone =
+               document.forms.RegForm.Telephone.value;
+            var what =
+               document.forms.RegForm.Subject.value;
+            var password =
+               document.forms.RegForm.Password.value;
+            var address =
+               document.forms.RegForm.Address.value;
+            var regEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g; //Javascript reGex for Email Validation.
+            var regPhone=/^\d{10}$/;                            // Javascript reGex for Phone Number validation.
+            var regName = /\d+$/g;                        // Javascript reGex for Name validation
+
+            if (name == "" || regName.test(name)) {
+               window.alert("Please enter your name properly.");
+               name.focus();
+               return false;
+            }
+
+            if (address == "") {
+               window.alert("Please enter your address.");
+               address.focus();
+               return false;
+            }
+            
+            if (email == "" || !regEmail.test(email)) {
+               window.alert("Please enter a valid e-mail address.");
+               email.focus();
+               return false;
+            }
+            
+            if (password == "") {
+               alert("Please enter your password");
+               password.focus();
+               return false;
+            }
+
+            if(password.length <6){
+               alert("Password should be atleast 6 character long");
+               password.focus();
+               return false;
+
+            }
+            if (phone == "" || !regPhone.test(phone)) {
+               alert("Please enter valid phone number.");
+               phone.focus();
+               return false;
+            }
+
+            if (what.selectedIndex == -1) {
+               alert("Please enter your course.");
+               what.focus();
+               return false;
+            }
+
+            return true;
+         }
+      </script>
+
+   <link rel="stylesheet" href="css/style.css">
+   </head>
+
+   <body>
+      <h1 style="text-align: center;">REGISTRATION FORM</h1>
+      <form name="RegForm" onsubmit="return dhruvavalidation()" method="post">
+         
+<p>Name: <input type="text"
+                     size="65" name="Name" /></p>
+
+         <br />
+         
+<p>Address: <input type="text"
+                     size="65" name="Address" />
+      </p>
+
+         <br />
+         
+<p>E-mail Address: <input type="text"
+                     size="65" name="EMail" /></p>
+
+         <br />
+         
+<p>Password: <input type="text"
+                  size="65" name="Password" /></p>
+
+         <br />
+         
+<p>Telephone: <input type="text"
+                  size="65" name="Telephone" /></p>
+
+         <br />
+
+         
+
+<p>Comments: <textarea cols="55"
+                     name="Comment"> </textarea></p>
+
+         
+<p>
+            <input type="submit"
+               value="send" name="Submit" />
+            <input type="reset"
+               value="Reset" name="Reset" />
+         </p>
+
+      </form>
+<section class="order" id="order">
+
+   <div class="heading">
+         <form name="RegForm" onsubmit="return dhruvavalidation()"  method="post">
+      <div class="box-container">
+         <div class="box">
+            <div class="inputBox">
+               <span>full name</span>
+               <input type="text" name="Name" placeholder="enter your name">
+            </div>
+            <div class="inputBox">
+               <span>food name</span>
+               <input type="text" placeholder="food you want">
+            </div>
+            <div class="inputBox">
+               <span> Email</span>
+               <input type="text" name="EMail" placeholder="specifics with food">
+            </div>
+            <div class="inputBox">
+               <span>your address</span>
+               <textarea name="Address" placeholder="enter your address" id="" cols="30" rows="10"></textarea>
+            </div>
+         </div>
+         <div class="box">
+            <div class="inputBox">
+               <span>number</span>
+               <input type="number"  name="Telephone" placeholder="enter your number">
+            </div>
+            <div class="inputBox">
+               <span>how much</span>
+               <input type="number" placeholder="how many you want">
+            </div>
+            <div class="inputBox">
+               <span>when you want</span>
+               <input type="datetime-local">
+            </div>
+            <div class="inputBox">
+               <span>our address</span>
+               <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60307.59083109428!2d72.840725!3d19.141651!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1642222128240!5m2!1sen!2sin" allowfullscreen="" loading="lazy"></iframe>
+            </div>
+         </div>
+      </div>
+      <p>
+            <input type="submit"
+               value="send" name="Submit" />
+
+         </p>
+     </form>
+  </div>
+</section>
+
+
+   </body>
+</html>
+
+ -->
+
+
+<html>
+   <head>
+      <script>
+         function druvavalllll() {
+            var name =
+               document.forms.RegForm.Name.value;
+            var email =
+               document.forms.RegForm.EMail.value;
+            var phone =
+               document.forms.RegForm.Phone.value;
+            var address =
+               document.forms.RegForm.Address.value;
+			
+			
+			
+			
+			
+				
+			
+            var regEmail=/^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/g; //Javascript reGex for Email Validation.
+            var regPhone=/^\d{10}$/;                            // Javascript reGex for Phone Number validation.
+            var regName = /\d+$/g;                        // Javascript reGex for Name validation
+
+
+         //   if(name=="" && address=="" && email=="" && password=="" && phone=="" && details="" && date_time=="" ){
+		   // window.alert("All Fields are Empty!");
+		   // return false;
+		   // }
+
+            if (name == "" || regName.test(name)) {
+               window.alert("Please enter your name properly.");
+             
+               return false;
+            }
+
+            else if (address == "") {
+               window.alert("Please enter your address.");
+             
+               return false;
+            }
+            
+            else if (email == "" || !regEmail.test(email)) {
+               window.alert("Please enter a valid e-mail address.");
+               
+               return false;
+            }
+            
+
+
+            else if (phone == "" || !regPhone.test(phone)) {
+               window.alert("Please enter valid phone number.");
+               
+               return false;
+            }
+			
+                  // location.href="index.html";
+
+            return true;
+         }
+      </script>
+
+
+   </head>
+
+   <body background="images/d1.jpg" width="400" height="500">
+      <h1 style="text-align: center;">ORDER FORM</h1>
+      <form name="RegForm" onsubmit="return druvavalllll()" method="post" action="order.html">
+         
+<p>Name: <input type="text"
+                     size="65" name="Name" /></p>
+         <br />
+         
+<p>Address: <input type="text"
+                     size="65" name="Address" /></p>
+         <br />
+         
+<p>E-mail Address: <input type="text"
+                     size="65" name="EMail" /></p>
+         <br />
+<p>Order Details:  <input type="text" name="Details"/></p>  
+		 <br />
+<p>Quantity: <input type="number" name="Quantity"/></p>
+       <br />
+<p>When do you want : <input type="datetime-local"
+                  size="65" name="Date_Time" /></p>
+         <br />
+         
+<p>Telephone: <input type="number"
+                  size="65" name="Phone" /></p>
+         <br />
+
+         <label class="radio" >Payment Method</label>
+         <br>
+<input class="radio" type="radio" name="cash" value="cash" checked /> <span>COD</span><br>
+<input class="radio" type="radio" name="ppal" value="ppal" /> <span>Net Banking</span><br>
+
+<input class="radio" type="radio" name="cash" value="cash" checked /> <span>PhonePay/GooglePay/BHIM UPI</span><br>
+<input class="radio" type="radio" name="ppal" value="ppal" /> <span>Credit/Debit</span>
+
+         
+<p>Maps : <div class="inputBox"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62197.164607129285!2d77.51229252724708!3d13.015104928691098!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae1796689feb25%3A0x5663bd7d8720df68!2sEmpire%20Restaurant%20Millers%20Road!5e0!3m2!1sen!2sin!4v1657797275187!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+         
+<p>
+         
+            <button type="submit">Submit</button>
+             
+			   
+			   
+            <button type="reset">Reset</button>
+               
+         </p>
+
+      </form>
+   </body>
+</html>
